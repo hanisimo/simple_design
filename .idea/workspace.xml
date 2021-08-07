@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
@@ -7,85 +10,273 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8559bd08-3ac3-4930-9c83-eca36a96cb43" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/__404error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/SDActionButton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/color.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/onPressed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDActionButton/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/SDAppBar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/automaticallyImplyLeading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/flexibleSpace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/leading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/preferredSize.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDAppBar/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/SDCard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/backgroundColor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/mediaContent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/subtitle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDCard/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/SDDialog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/actionButton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/barrierDismissible.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/dismissButton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDialog/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/SDDismissButton.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/icon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/onPressed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDismissButton/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/SDDivider.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/height.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDDivider/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/SDSectionHeader.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSectionHeader/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/SDSliverAppBar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/automaticallyImplyLeading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/build.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/createElement.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/debugDescribeChildren.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/debugFillProperties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/expandedHeight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/flexibleSpace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/floating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/leading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/pinned.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/snap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/title.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/toDiagnosticsNode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/toStringDeep.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/toStringShallow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SDSliverAppBar/toStringShort.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign-class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/SimpleDesign.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/darkTheme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/hashCode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/lightTheme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/noSuchMethod.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/operator_equals.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/runtimeType.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/SimpleDesign/toString.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/simple_design/simple_design-library.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/URI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/play_button.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/sdk_footer_text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/api/static-assets/typeahead.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/java/com/leodr/example/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/assets/flower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/fonts/HKGrotesk-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/fonts/HKGrotesk-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/AppDelegate.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner/main.m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/test/widget_test.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/simple_design.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/simple_design.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/simple_design.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/simple_design_test.dart" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.dart_tool/" />
-    <ignored path="$PROJECT_DIR$/.idea/" />
-    <ignored path="$PROJECT_DIR$/.pub/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LICENSE">
-          <provider selected="true" editor-type-id="text-editor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CHANGELOG.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CHANGELOG.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pubspec.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_design.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/simple_design.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="127" column="76" selection-start-line="127" selection-start-column="76" selection-end-line="127" selection-end-column="76" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/hani/.android/avd/Pixel_4_API_30.avd]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -134,7 +325,10 @@
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1wPEdCUEbORys7ypgDXqqAbM1f7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -166,8 +360,14 @@
       <pane id="AndroidView" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../flutter_news_app" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -180,18 +380,6 @@
       <recent name="C:\Users\leodr\AndroidStudioProjects\simple_design\example\assets" />
       <recent name="C:\Users\leodr\AndroidStudioProjects\simple_design\example\fonts" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -212,37 +400,32 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="simple_design" type="FlutterRunConfigurationType" factoryName="Flutter">
       <option name="filePath" value="$PROJECT_DIR$/example/lib/main.dart" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -289,18 +472,22 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE">

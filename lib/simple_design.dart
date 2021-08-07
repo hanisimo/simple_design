@@ -7,9 +7,9 @@ class SimpleDesign {
   static final lightTheme = ThemeData(
       splashColor: Colors.blueAccent.withOpacity(0.15),
       textTheme: TextTheme(
-          title: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
-          body1: TextStyle(fontSize: 16.0),
-          body2: TextStyle(fontSize: 16.0, color: Colors.grey[800]),
+          headline6: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+          bodyText2: TextStyle(fontSize: 16.0),
+          bodyText1: TextStyle(fontSize: 16.0, color: Colors.grey[800]),
           button: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
           caption:
               TextStyle(fontSize: 16.0, color: Colors.black.withOpacity(0.5))),
@@ -34,7 +34,6 @@ class SimpleDesign {
       disabledColor: Colors.grey[400],
       canvasColor: Colors.white,
       cardColor: Colors.white,
-      cursorColor: Colors.blueAccent,
       dialogBackgroundColor: Colors.white,
       dialogTheme: DialogTheme(
           shape: RoundedRectangleBorder(
@@ -45,9 +44,9 @@ class SimpleDesign {
       inputDecorationTheme: InputDecorationTheme(
         border: UnderlineInputBorder(),
         contentPadding: EdgeInsets.all(8.0),
-        hasFloatingPlaceholder: false,
         errorMaxLines: 1,
         filled: false,
+        floatingLabelBehavior: FloatingLabelBehavior.never,
       ),
       indicatorColor: Colors.blueAccent,
       primaryColor: Colors.blueAccent,
@@ -93,36 +92,39 @@ class SimpleDesign {
           indicatorSize: TabBarIndicatorSize.label,
           labelColor: Colors.blueAccent,
           unselectedLabelColor: Colors.grey),
-      textSelectionColor: Colors.blueAccent.withOpacity(0.5),
-      textSelectionHandleColor: Colors.blueAccent,
       toggleableActiveColor: Colors.blueAccent,
-      unselectedWidgetColor: Colors.grey[600]);
+      unselectedWidgetColor: Colors.grey[600],
+      textSelectionTheme: TextSelectionThemeData(
+        cursorColor: Colors.blueAccent,
+        selectionColor: Colors.blueAccent.withOpacity(0.5),
+        selectionHandleColor: Colors.blueAccent,
+      ));
 
   static final darkTheme = ThemeData(
       splashColor: Colors.white.withOpacity(0.1),
       textTheme: TextTheme(
-          title: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
-          body1: TextStyle(fontSize: 16.0),
-          body2: TextStyle(fontSize: 16.0, color: Colors.grey[200]),
+          headline6: TextStyle(fontWeight: FontWeight.bold, fontSize: 20.0),
+          bodyText2: TextStyle(fontSize: 16.0),
+          bodyText1: TextStyle(fontSize: 16.0, color: Colors.grey[200]),
           button: TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
-          display1: TextStyle(fontSize: 20.0),
-          display2: TextStyle(fontSize: 24.0),
-          display3: TextStyle(fontSize: 28.0),
-          display4: TextStyle(fontSize: 32.0),
+          headline4: TextStyle(fontSize: 20.0),
+          headline3: TextStyle(fontSize: 24.0),
+          headline2: TextStyle(fontSize: 28.0),
+          headline1: TextStyle(fontSize: 32.0),
           overline: TextStyle(fontSize: 14.0),
           caption:
               TextStyle(fontSize: 16.0, color: Colors.white.withOpacity(0.5))),
       primaryTextTheme: TextTheme(
-          title: TextStyle(
+          headline6: TextStyle(
               fontWeight: FontWeight.bold, fontSize: 20.0, color: Colors.white),
-          body1: TextStyle(fontSize: 16.0, color: Colors.white),
-          body2: TextStyle(fontSize: 16.0, color: Colors.grey[200]),
+          bodyText2: TextStyle(fontSize: 16.0, color: Colors.white),
+          bodyText1: TextStyle(fontSize: 16.0, color: Colors.grey[200]),
           button: TextStyle(
               fontSize: 14.0, fontWeight: FontWeight.bold, color: Colors.white),
-          display1: TextStyle(fontSize: 20.0, color: Colors.white),
-          display2: TextStyle(fontSize: 24.0, color: Colors.white),
-          display3: TextStyle(fontSize: 28.0, color: Colors.white),
-          display4: TextStyle(fontSize: 32.0, color: Colors.white),
+          headline4: TextStyle(fontSize: 20.0, color: Colors.white),
+          headline3: TextStyle(fontSize: 24.0, color: Colors.white),
+          headline2: TextStyle(fontSize: 28.0, color: Colors.white),
+          headline1: TextStyle(fontSize: 32.0, color: Colors.white),
           overline: TextStyle(fontSize: 14.0, color: Colors.white),
           caption:
               TextStyle(fontSize: 16.0, color: Colors.white.withOpacity(0.5))),
@@ -148,7 +150,6 @@ class SimpleDesign {
       disabledColor: Colors.grey[600],
       canvasColor: Colors.grey[850],
       cardColor: Colors.grey[850],
-      cursorColor: Colors.blueAccent,
       dialogBackgroundColor: Colors.grey[850],
       dialogTheme: DialogTheme(
           shape: RoundedRectangleBorder(
@@ -159,9 +160,9 @@ class SimpleDesign {
       inputDecorationTheme: InputDecorationTheme(
         border: UnderlineInputBorder(),
         contentPadding: EdgeInsets.all(8.0),
-        hasFloatingPlaceholder: false,
         errorMaxLines: 1,
         filled: false,
+        floatingLabelBehavior: FloatingLabelBehavior.never,
       ),
       indicatorColor: Colors.blueAccent,
       primaryColor: Colors.blueAccent,
@@ -207,22 +208,25 @@ class SimpleDesign {
           indicatorSize: TabBarIndicatorSize.label,
           labelColor: Colors.blueAccent,
           unselectedLabelColor: Colors.grey[400]),
-      textSelectionColor: Colors.blueAccent.withOpacity(0.5),
-      textSelectionHandleColor: Colors.blueAccent,
       toggleableActiveColor: Colors.blueAccent,
-      unselectedWidgetColor: Colors.grey[400]);
+      unselectedWidgetColor: Colors.grey[400],
+      textSelectionTheme: TextSelectionThemeData(
+        cursorColor: Colors.blueAccent,
+        selectionColor: Colors.blueAccent.withOpacity(0.5),
+        selectionHandleColor: Colors.blueAccent,
+      ));
 }
 
 class SDAppBar extends StatelessWidget implements PreferredSizeWidget {
   final Widget title;
-  final Widget leading;
-  final List<Widget> actions;
-  final PreferredSizeWidget bottom;
+  final Widget? leading;
+  final List<Widget>? actions;
+  final PreferredSizeWidget? bottom;
   final bool automaticallyImplyLeading;
-  final Widget flexibleSpace;
+  final Widget? flexibleSpace;
 
   SDAppBar(
-      {@required this.title,
+      {required this.title,
       this.leading,
       this.actions,
       this.bottom,
@@ -251,18 +255,18 @@ class SDAppBar extends StatelessWidget implements PreferredSizeWidget {
 
 class SDSliverAppBar extends StatelessWidget {
   final Widget title;
-  final Widget leading;
-  final List<Widget> actions;
-  final PreferredSizeWidget bottom;
+  final Widget? leading;
+  final List<Widget>? actions;
+  final PreferredSizeWidget? bottom;
   final bool automaticallyImplyLeading;
-  final Widget flexibleSpace;
+  final Widget? flexibleSpace;
   final bool pinned;
   final bool floating;
   final bool snap;
   final double expandedHeight;
 
   SDSliverAppBar(
-      {@required this.title,
+      {required this.title,
       this.leading,
       this.actions,
       this.bottom,
@@ -297,13 +301,13 @@ class SDSliverAppBar extends StatelessWidget {
 
 class SDDialog extends StatelessWidget {
   final String title;
-  final Widget content;
-  final SDDismissButton dismissButton;
-  final SDActionButton actionButton;
+  final Widget? content;
+  final SDDismissButton? dismissButton;
+  final SDActionButton? actionButton;
   final bool barrierDismissible;
 
   SDDialog(
-      {@required this.title,
+      {required this.title,
       this.barrierDismissible: false,
       this.content,
       this.dismissButton,
@@ -326,7 +330,7 @@ class SDDialog extends StatelessWidget {
                 padding: const EdgeInsets.all(24.0),
                 child: Text(
                   title,
-                  style: Theme.of(context).textTheme.title,
+                  style: Theme.of(context).textTheme.headline6,
                 ),
               ),
               Padding(
@@ -358,23 +362,24 @@ class SDDialog extends StatelessWidget {
 class SDDismissButton extends StatelessWidget {
   final VoidCallback onPressed;
   final String title;
-  final Icon icon;
+  final Icon? icon;
 
-  SDDismissButton({@required this.onPressed, this.title: "Cancel", this.icon});
+  SDDismissButton({required this.onPressed, this.title: "Cancel", this.icon});
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
+    return TextButton(
         onPressed: onPressed,
-        textColor: Color.fromRGBO(
-            255 - Theme.of(context).backgroundColor.red,
-            255 - Theme.of(context).backgroundColor.green,
-            255 - Theme.of(context).backgroundColor.blue,
-            1.0),
+        style: TextButton.styleFrom(
+            primary: Color.fromRGBO(
+                255 - Theme.of(context).backgroundColor.red,
+                255 - Theme.of(context).backgroundColor.green,
+                255 - Theme.of(context).backgroundColor.blue,
+                1.0)),
         child: icon == null
             ? Text(title)
             : Row(
-                children: <Widget>[icon, SizedBox(width: 4.0), Text(title)],
+                children: <Widget>[icon!, SizedBox(width: 4.0), Text(title)],
               ));
   }
 }
@@ -382,22 +387,54 @@ class SDDismissButton extends StatelessWidget {
 class SDActionButton extends StatelessWidget {
   final VoidCallback onPressed;
   final String title;
-  final Icon icon;
-  final Color color;
+  final Icon? icon;
+  final Color? color;
 
   SDActionButton(
-      {@required this.onPressed, this.title: "Ok", this.icon, this.color});
+      {required this.onPressed, this.title: "Ok", this.icon, this.color});
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
+    return
+
+        /*
+         FlatButton(
         color: color ?? Theme.of(context).primaryColor,
         onPressed: onPressed,
         child: icon == null
             ? Text(title)
             : Row(
-                children: <Widget>[icon, SizedBox(width: 4.0), Text(title)],
+                children: <Widget>[
+                  icon!,
+                  SizedBox(width: 4.0),
+                  Text(title),
+                ],
               ));
+
+      TextButton(
+        onPressed: onPressed,
+        style: TextButton.styleFrom(
+            textStyle: const TextStyle(fontSize: 28),
+            primary: Color.fromRGBO(
+                255 - Theme.of(context).backgroundColor.red,
+                255 - Theme.of(context).backgroundColor.green,
+                255 - Theme.of(context).backgroundColor.blue,
+                1.0)),
+
+       */
+        TextButton(
+            onPressed: onPressed,
+            style: TextButton.styleFrom(
+                backgroundColor: color ?? Theme.of(context).primaryColor),
+            child: icon == null
+                ? Text(title)
+                : Row(
+                    children: <Widget>[
+                      icon!,
+                      SizedBox(width: 4.0),
+                      Text(title),
+                    ],
+                  ));
   }
 }
 
@@ -430,16 +467,16 @@ class SDSectionHeader extends StatelessWidget {
 }
 
 class SDCard extends StatelessWidget {
-  final Widget mediaContent;
+  final Widget? mediaContent;
   final Widget content;
-  final String title;
-  final String subtitle;
-  final List<Widget> actions;
-  final Color backgroundColor;
+  final String? title;
+  final String? subtitle;
+  final List<Widget>? actions;
+  final Color? backgroundColor;
 
   SDCard(
       {this.mediaContent,
-      @required this.content,
+      required this.content,
       this.subtitle,
       this.title,
       this.actions,
@@ -463,8 +500,8 @@ class SDCard extends StatelessWidget {
               ? Padding(
                   padding: const EdgeInsets.fromLTRB(20.0, 20.0, 20.0, 0.0),
                   child: Text(
-                    title,
-                    style: Theme.of(context).textTheme.title,
+                    title!,
+                    style: Theme.of(context).textTheme.headline6,
                   ),
                 )
               : SizedBox(),
@@ -472,8 +509,8 @@ class SDCard extends StatelessWidget {
               ? Padding(
                   padding: const EdgeInsets.fromLTRB(20.0, 0.0, 20.0, 0.0),
                   child: Text(
-                    subtitle,
-                    style: Theme.of(context).textTheme.subtitle,
+                    subtitle!,
+                    style: Theme.of(context).textTheme.subtitle2,
                   ),
                 )
               : SizedBox(),
@@ -488,7 +525,7 @@ class SDCard extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(vertical: 12.0),
                     child: ButtonBar(
                       mainAxisSize: MainAxisSize.max,
-                      children: actions,
+                      children: actions!,
                     ),
                   ),
                 )

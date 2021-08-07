@@ -13,3 +13,9 @@
 ## [1.0.3] - 16.12.2018.
 
 * Fixed a brightness bug in the AppBar
+
+## [1.0.4] - 07.08.2021.
+
+* Null Safety Support.
+* Update the deprecated codes to the latest version.
+* Update the package version to 1.0.4.

@@ -1,12 +1,15 @@
-# simple_design
+# simple_design  (Null Safety Version)
 
 A simple design library for Flutter.
 
-This package includes:
+## :sparkles: What's New
+- Null Safety Support.
+- Update the deprecated codes to the latest version.
+- Update the package version to 1.0.4.
+
+## This package includes:
 - Premade themes, dark and light brightness
 - Several custom Simple Design widgets, serving the original design idea.
-
-Link to the example images: https://imgur.com/a/duatQYT
 
 For general design advice I used the Material Design Specifications from material.io.
 
@@ -28,8 +31,6 @@ They are customizable with title, leading, actions, bottom, automaticallyImplyLe
 and flexibeSpace. The other values are not customizable to not negatively impact the
 appearance of your app.
 
-![SDAppBar and SDSliverAppBar](https://i.imgur.com/Mh7btbo.jpg)
-
 ## SDDialog with SDDismissButton and SDActionButton
 
 This is a custom dialog and should be used in the showDialog() method instead of
@@ -39,8 +40,6 @@ which is not yet working.
 
 The SDDismissButton and SDActionButton should be self-explaining.
 
-![SDDialog with SDDismissButton and SDActionButton](https://i.imgur.com/uDETYMG.jpg)
-
 ## SDDivider and SDSectionHeader
 
 Designed for the use in Colums and Lists, the SDDivider provides a vertical padding of 36.0
@@ -49,12 +48,8 @@ pixels, which is recommended, but can be customized with the height property.
 The SDSectionHeader is to be used below a SDDivider to announce the title of a new section,
 as it can be seen in the example application.
 
-![SDSectionHeader](https://i.imgur.com/DF9O8Ok.jpg)
-
 ## SDCard
 
 The SDCard widget is a highly customizable card, with options for mediaContent, content, title,
 subtitle, actions and backgroundColor. It has a slight shadow underneath and is best used in
 Colums and Lists.
-
-![SDCard](https://i.imgur.com/ScrMJAH.jpg)
